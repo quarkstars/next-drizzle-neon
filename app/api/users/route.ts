@@ -1,5 +1,4 @@
 import { db } from "@/drizzle/db";
-import { SelectedUser } from "@/drizzle/types";
 import { NextResponse } from "next/server";
 
 export async function GET(req: Request) {
